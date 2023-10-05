@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 117.0.0.0,,,2023-10-03 12:32:41,2023-10-03 12:33:03,22.186s,PASSED
+,,,,,,,
+Test Cases/TestRR1,Chrome 117.0.0.0,,,2023-10-03 12:32:41,2023-10-03 12:33:03,21.739s,PASSED
+"openBrowser("""")",Chrome 117.0.0.0,,,2023-10-03 12:32:42,2023-10-03 12:32:45,3.475s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 117.0.0.0,,,2023-10-03 12:32:45,2023-10-03 12:32:50,4.845s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 117.0.0.0,,,2023-10-03 12:32:50,2023-10-03 12:32:52,1.801s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 117.0.0.0,,,2023-10-03 12:32:52,2023-10-03 12:32:53,0.888s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 117.0.0.0,,,2023-10-03 12:32:53,2023-10-03 12:32:54,0.777s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Admin_oxd-input oxd-input--focus""))",Chrome 117.0.0.0,,,2023-10-03 12:32:54,2023-10-03 12:32:56,2.379s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/span_Admin""))",Chrome 117.0.0.0,,,2023-10-03 12:32:56,2023-10-03 12:32:58,2.232s,PASSED
+"verifyElementPresent(findTestObject(""Page_OrangeHRM/span_Admin""), 0)",Chrome 117.0.0.0,,,2023-10-03 12:32:58,2023-10-03 12:33:00,1.413s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/i_Admin_oxd-icon bi-chevron-left""))",Chrome 117.0.0.0,,,2023-10-03 12:33:00,2023-10-03 12:33:00,0.651s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/a_Logout""))",Chrome 117.0.0.0,,,2023-10-03 12:33:00,2023-10-03 12:33:02,1.437s,PASSED
+closeBrowser(),Chrome 117.0.0.0,,,2023-10-03 12:33:02,2023-10-03 12:33:03,1.226s,PASSED
